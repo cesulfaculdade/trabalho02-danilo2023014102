@@ -23,7 +23,9 @@ export const styles = StyleSheet.create({
     input: {
       flexDirection: "row",
       top: -50,
-      alignItems: "center"
+      alignItems: "center",
+      justifyContent: "center",
+      marginEnd: 50
     },
     text: {
       backgroundColor: "#808080",
@@ -41,7 +43,7 @@ export const styles = StyleSheet.create({
       marginTop: -125,
       height: 54,
       borderRadius: 5,
-      backgroundColor: "#",
+      backgroundColor: "#000",
       justifyContent: "center",
       alignItems: "center"
     }
