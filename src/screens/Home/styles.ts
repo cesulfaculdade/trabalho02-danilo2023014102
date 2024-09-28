@@ -33,18 +33,37 @@ export const styles = StyleSheet.create({
       height: 54,
       borderRadius: 7,
       paddingHorizontal: 16,
-      borderColor: "#000",
+      borderColor: "#fff",
       borderWidth: 0.7,
     },
     button: {
       width: 54,
       borderWidth: 0.7,
-      marginLeft: 387,
-      marginTop: -124,
       height: 54,
       borderRadius: 5,
       backgroundColor: "#1C1C1C",
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      borderColor: "#fff",
+      marginRight: -55,
+      marginLeft: 8
+
+    },
+    list: {
+      justifyContent: "center"
+    },
+    listContainer: {
+      alignItems: "center",
+      flex: 1,
+    },
+    textSec: {
+      fontSize: 16,
+      textAlign: "center",
+      color: "#fff",
+    },
+    textTer: {
+      color: "#fff",
+      fontSize: 14,
+      textAlign: "center"
     }
   });

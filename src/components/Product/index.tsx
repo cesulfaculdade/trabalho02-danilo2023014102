@@ -9,7 +9,7 @@ type Props = {
     onRemove: ()=> void;
 }
 
-export function product ({nome , onRemove}: Props ){
+export function Product ({nome , onRemove}: Props ){
     return(
         <View style={styles.container} >
             <Entypo name= "circle" size={24} color= "#fff" />
