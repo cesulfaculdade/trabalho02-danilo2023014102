@@ -14,7 +14,7 @@ export function Home (){
         return Alert.alert("Produto já esta cadastrado na lista");
       }
       setProducts((prevState) => [...prevState, productName]);
-      setProductName("");
+      setProductName('');
     }
 
     function removeProduto(name: string) {
@@ -27,12 +27,11 @@ export function Home (){
           text: "Não",
           style: "cancel"
         }
-      ])
+      ]);
     }
 
     return(
         <View style={styles.container}>
-
         
           <View style={styles.back}>
              <Text style={styles.title}>Lista de Compras</Text>
@@ -49,7 +48,7 @@ export function Home (){
                 />
 
 
-            <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <TouchableOpacity style={styles.button} onPress={adicionaProduto}>
               <MaterialIcons  name="add-circle-outline" size={16} color="white"/>
                 </TouchableOpacity>
             </View>

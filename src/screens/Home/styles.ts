@@ -18,14 +18,14 @@ export const styles = StyleSheet.create({
       margin: "auto",
     },
     form: {
-      padding: 20
+      padding: 20,
     },
     input: {
       flexDirection: "row",
       top: -50,
       alignItems: "center",
       justifyContent: "center",
-      marginEnd: 50,
+      marginEnd: 50
     },
     text: {
       backgroundColor: "#1C1C1C",
@@ -50,7 +50,7 @@ export const styles = StyleSheet.create({
 
     },
     list: {
-      justifyContent: "center"
+      justifyContent: "center",
     },
     listContainer: {
       alignItems: "center",
@@ -64,6 +64,6 @@ export const styles = StyleSheet.create({
     textTer: {
       color: "#fff",
       fontSize: 14,
-      textAlign: "center"
+      textAlign: "center",
     }
   });
