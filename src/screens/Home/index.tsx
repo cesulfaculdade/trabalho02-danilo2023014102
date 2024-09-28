@@ -1,4 +1,4 @@
-import { Text, View } from 'react-native';
+import { Text, TextInput, View } from 'react-native';
 import { styles } from "./styles"
 
 export function Home (){
@@ -10,6 +10,16 @@ export function Home (){
              <Text style={styles.title}>Lista de Compras</Text>
           </View>
 
+            <View style={styles.form}>
+              <View style ={styles.input}>
+                <TextInput style = {styles.text}
+                  placeholder = "Adicione um produto"
+                  placeholderTextColor ="#fff"
+                  keyboardType='default'
+
+                />
+                </View>
+            </View>
 
         </View>
     );
