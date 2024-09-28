@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
         borderWidth: 1,
     },
     text: {
-        color: "#808080",
+        color: "#fff",
         marginLeft: 8,
         marginRight: "auto",
         textDecorationLine: "line-through",       
