@@ -1,5 +1,6 @@
-import { Text, TextInput, View } from 'react-native';
+import { Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { styles } from "./styles"
+import { MaterialIcons } from '@expo/vector-icons';
 
 export function Home (){
     return(
@@ -21,6 +22,9 @@ export function Home (){
                 </View>
             </View>
 
+            <TouchableOpacity style={styles.button} onPress={() => {}}>
+              <MaterialIcons  name="add-circle-outline" size={16} color="white"/>
+            </TouchableOpacity>
         </View>
     );
 }

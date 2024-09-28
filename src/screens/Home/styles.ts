@@ -12,8 +12,9 @@ export const styles = StyleSheet.create({
     },
     title: {
       color: "#fff",
-      fontSize: 20,
+      fontSize: 24,
       alignItems: "center",
+      textAlign: "center",
       margin: "auto",
     },
     form: {
@@ -21,7 +22,7 @@ export const styles = StyleSheet.create({
     },
     input: {
       flexDirection: "row",
-      top: -40,
+      top: -50,
       alignItems: "center"
     },
     text: {
@@ -31,6 +32,17 @@ export const styles = StyleSheet.create({
       borderRadius: 7,
       paddingHorizontal: 16,
       borderColor: "#000",
-      borderWidth: 0.5,
+      borderWidth: 0.7,
+    },
+    button: {
+      width: 54,
+      borderWidth: 0.7,
+      marginLeft: 390,
+      marginTop: -125,
+      height: 54,
+      borderRadius: 5,
+      backgroundColor: "#",
+      justifyContent: "center",
+      alignItems: "center"
     }
   });
