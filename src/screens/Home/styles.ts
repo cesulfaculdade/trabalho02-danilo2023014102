@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
@@ -35,6 +35,7 @@ export const styles = StyleSheet.create({
       paddingHorizontal: 16,
       borderColor: "#fff",
       borderWidth: 0.7,
+      color: "#fff"
     },
     button: {
       width: 54,
@@ -47,7 +48,6 @@ export const styles = StyleSheet.create({
       borderColor: "#fff",
       marginRight: -55,
       marginLeft: 8
-
     },
     list: {
       justifyContent: "center",
@@ -65,5 +65,5 @@ export const styles = StyleSheet.create({
       color: "#fff",
       fontSize: 14,
       textAlign: "center",
-    }
+    },
   });

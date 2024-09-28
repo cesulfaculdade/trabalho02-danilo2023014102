@@ -20,7 +20,8 @@ export const styles = StyleSheet.create({
         width: "90%",
         padding: 12,
         borderWidth: 1,
-        color: "#fff"
+        borderColor: "#fff",
+        backgroundColor: "#1C1C1C"
     },
     text: {
         color: "#fff",

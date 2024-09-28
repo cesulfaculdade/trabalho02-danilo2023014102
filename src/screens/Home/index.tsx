@@ -1,8 +1,9 @@
-import { Text, TextInput, TouchableOpacity, View, Alert, FlatList } from 'react-native';
+import { Text, TextInput, TouchableOpacity, View, Alert, FlatList, Image } from 'react-native';
 import { styles } from "./styles"
-import { MaterialIcons } from '@expo/vector-icons';
-import { useState } from 'react';
+import { MaterialIcons } from "@expo/vector-icons";
+import { useState } from "react";
 import { Product } from "../../components/Product";
+import shopping from "../../assets/shopping_list.png";
 
 export function Home (){
 
@@ -64,6 +65,7 @@ export function Home (){
               contentContainerStyle={products.length <= 0 && styles.list}
               ListEmptyComponent={() => (
                 <View style={styles.listContainer} >
+                  <Image source={shopping}></Image>
                     <Text style={styles.textSec}>
                         Você ainda não tem produtos na lista de compra
                     </Text>
